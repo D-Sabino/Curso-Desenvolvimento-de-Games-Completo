@@ -2,7 +2,7 @@
 
 ## Descrição do projeto
 <p align="justify">
-  Curso Desenvolvimento de Games Complet <br>
+  Curso Desenvolvimento de Games Completo <br>
   Curso da Danki.Code: https://cursos.dankicode.com/curso-dev-games
 </p>
 
