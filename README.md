@@ -7,12 +7,13 @@
 </p>
 
 <br><br>
-<h2>Comandos executados durante o curso e suas explicações:</h2>
 
+<!-- 
+<h2>Comandos executados durante o curso e suas explicações:</h2>
 ```bash
 (SEM COMANDOS, POR ENQUANTO)
 ```
-
+-->
 
 ## Módulos:
 - [X] Seção 01: Sua jornada <br>
@@ -90,10 +91,16 @@
   - Spritesheet e rederizando sprites
   - Animações e rotacionando objetos
 
-- [] Seção 11: Criando jogo pong (Bônus)<br>
+- [X] Seção 11: Criando jogo pong (Bônus)<br>
   - Criando jogo pong 1/3
   - Criando jogo pong 2/3
   - Criando jogo pong 3/3
+
+  Apresentação do projeto concluído:
+  <p align="center">
+    <img width="600" src = "README-INF/GIFs/PONG.gif">
+  </p>
+
 
 - [] Seção 12: <br>
 - [] Seção 13: <br>
