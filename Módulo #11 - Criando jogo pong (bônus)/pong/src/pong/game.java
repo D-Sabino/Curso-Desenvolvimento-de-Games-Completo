@@ -12,7 +12,7 @@ import javax.swing.JFrame;
 public class game extends Canvas implements Runnable, KeyListener {
 
 	public static int WIDTH = 240;
-	public static int HEIGHT = 120;
+	public static int HEIGHT = 135;
 	public static int SCALE = 3;
 	
 	public BufferedImage layer = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
