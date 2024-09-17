@@ -101,8 +101,12 @@
     <img width="600" src = "README-INF/GIFs/PONG.gif">
   </p>
 
+- [ ] Seção 12: Criando game engine e jogo #1 (Zelda Clone)<br>
+  - Brainstorm e criando projeto
+    - Instalação do Software Paint.NET, plugin Grid (GridCheckerboard.dll)
+  - Setup e gráficos
+  - Finalizando sprites
 
-- [] Seção 12: <br>
 - [] Seção 13: <br>
 - [] Seção 14: <br>
 - [] Seção 15: <br>
@@ -136,15 +140,3 @@
 - [] Seção 43: <br>
 - [] Seção 44: <br>
 - [] Seção 45: <br>
-- [] Seção 46: <br>
-- [] Seção 47: <br>
-- [] Seção 48: <br>
-- [] Seção 49: <br>
-- [] Seção 50: <br>
-- [] Seção 51: <br>
-- [] Seção 52: <br>
-- [] Seção 53: <br>
-- [] Seção 54: <br>
-- [] Seção 55: <br>
-- [] Seção 56: <br>
-- [] Seção 57: <br>
