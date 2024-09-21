@@ -106,6 +106,8 @@
     - Instalação do Software Paint.NET, plugin Grid (GridCheckerboard.dll)
   - Setup e gráficos
   - Finalizando sprites
+  - Classe spritesheet, player e entity
+  - Eventos do teclado, controlando player
 
 - [] Seção 13: <br>
 - [] Seção 14: <br>
