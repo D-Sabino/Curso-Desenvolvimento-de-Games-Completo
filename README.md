@@ -103,11 +103,26 @@
 
 - [ ] Seção 12: Criando game engine e jogo #1 (Zelda Clone)<br>
   - Brainstorm e criando projeto
-    - Instalação do Software Paint.NET, plugin Grid (GridCheckerboard.dll)
+  - Instalação do Software Paint.NET, plugin Grid (GridCheckerboard.dll)
   - Setup e gráficos
   - Finalizando sprites
   - Classe spritesheet, player e entity
   - Eventos do teclado, controlando player
+  - Manipulando direções e animações
+  - Iniciando com mapa
+  - Tiles e validando posições
+  - Entities no mapa
+  - Câmera
+  - Clamp e otimizando renderização do mapa
+  - Tile collision
+  - Inteligência artificial nos inimigos
+  - Colisão entre inimigos e random
+  - Animando inimigos
+  - Sistema de dano
+  - UI para o jogo
+  - Coletando life pack e incrementado a vida
+  
+
 
 - [] Seção 13: <br>
 - [] Seção 14: <br>
