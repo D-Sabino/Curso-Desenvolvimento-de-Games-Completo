@@ -4,12 +4,14 @@ import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 
 import com.dsabino.main.Game;
+import com.dsabino.world.Camera;
+import com.dsabino.world.World;
 
 public class Player extends Entity {
 
 	public boolean right, up, left, down;
 	public int right_dir = 0, left_dir = 1, dir = right_dir;
-	public double speed = 1.2;
+	public double speed = 1.1;
 	
 	private int frames = 0, maxFrames = 5, index = 0, maxIndex = 3;
 	private boolean moved = false;
@@ -67,14 +69,16 @@ public class Player extends Entity {
 			}
 		}
 		
+		Camera.x = Camera.clamp(this.getX() - (Game.WIDTH/2), 0, World.WIDTH * 16 - Game.WIDTH);
+		Camera.y = Camera.clamp(this.getY() - (Game.HEIGHT/2), 0, World.HEIGHT * 16 - Game.HEIGHT);
 	}
 	
 	public void render(Graphics g) {
 		if(dir == right_dir) {
-			g.drawImage(rightPlayer[index], this.getX(), this.getY(), null);
+			g.drawImage(rightPlayer[index], this.getX() - Camera.x, this.getY() - Camera.y, null);
 		}
 		else if(dir == left_dir) {
-			g.drawImage(leftPlayer[index], this.getX(), this.getY(), null);
+			g.drawImage(leftPlayer[index], this.getX() - Camera.x, this.getY() - Camera.y, null);
 		}
 		
 	}
